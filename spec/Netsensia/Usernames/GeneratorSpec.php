@@ -16,7 +16,11 @@ class GeneratorSpec extends ObjectBehavior
     {
         $this->generate(1)->shouldBeAUsernameWithPartCount(1);
         $this->generate(2)->shouldBeAUsernameWithPartCount(2);
-        $this->generate(3)->shouldBeAUsernameWithPartCount(3);
+        
+        for ($i=0; $i<5000; $i++) {
+            // check for unforeseen edge cases
+            $this->generate(3)->shouldBeAUsernameWithPartCount(3);
+        }
 
         $this->generate(0)->shouldBeAUsernameWithPartCount(1);
         $this->generate(4)->shouldBeAUsernameWithPartCount(3);

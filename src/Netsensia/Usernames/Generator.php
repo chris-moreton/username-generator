@@ -11,7 +11,7 @@ class Generator
     private $colours = ['Red','Yellow','Green','Blue','Mauve','Orange','Purple','Turqouise','Pink','Scarlet'];
     
     private function randomElement($array) {
-        return $array[rand(0, count($array))];    
+        return $array[rand(0, count($array)-1)];    
     }
     
     public function generate($parts)
