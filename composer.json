@@ -1,0 +1,17 @@
+{
+    "name": "chris-moreton/username-generator",
+    "description": "Generate random usernames",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {"Netsensia\\Usernames\\": "src/Netsensia/Usernames/"}
+    }
+}
