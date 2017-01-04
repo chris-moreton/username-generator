@@ -28,4 +28,4 @@ Development
 
 ### Run the tests
 
-bin/phpspec run --format=pretty -vvv --stop-on-failure
+    bin/phpspec run --format=pretty -vvv --stop-on-failure
