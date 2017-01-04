@@ -1,6 +1,6 @@
 # Simple username generator
 
-This is a super-simple username generator, generating names such as "Dumpy-Marigold" or "Lovely-Lampshade".
+This is a super-simple username generator, generating names such as "Juicy Falcon" or "Super Pink Osprey".
 
 Add to project using Composer
 -----------------------------
@@ -9,6 +9,7 @@ Add to project using Composer
     
 Usage
 -----
+    include 'vendor/autoload.php';
 
     use Netsensia\Usernames\Generator;
     
